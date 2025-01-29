@@ -1,0 +1,14 @@
+name: qwen2vl_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - torch>=2.0
+    - transformers>=4.26
+    - accelerate>=0.16
+    - safetensors
+    - sentencepiece
+    - azureml-inference-server-http
